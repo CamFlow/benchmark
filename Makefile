@@ -27,16 +27,16 @@ service_off:
 	-sudo systemctl stop camflow-provenance.service
 
 whole:
-	camflow -e true
-	camflow -a true
+	sudo camflow -e true
+	sudo camflow -a true
 
 selective:
-	camflow -e true
-	camflow -a false
+	sudo camflow -e true
+	sudo camflow -a false
 
 off:
-	camflow -e false
-	camflow -a false
+	sudo camflow -e false
+	sudo camflow -a false
 
 run_lmbench: service_off
 	@echo "Running lmbench..."
