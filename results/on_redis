@@ -1,0 +1,103 @@
+System Information
+
+Hardware:
+Processor: Intel Core i3 530 @ 2.93GHz (4 Cores), Motherboard: BIOSTAR TH55B HD v6.0, Chipset: Intel Core DRAM, Memory: 8192MB, Disk: 500GB Seagate ST3500418AS + 160GB Seagate ST3160815AS, Graphics: Intel Core IGP, Audio: Realtek ALC662 rev1, Monitor: IBM T860, Network: Realtek RTL8111/8168/8411
+
+Software:
+OS: Fedora 25, Kernel: 4.9.5 (x86_64), Desktop: GNOME Shell 3.22.1, Display Server: Wayland, OpenGL: 2.1 Mesa 13.0.4, Compiler: GCC 6.3.1 20161221 + Clang 3.9.1, File-System: ext4, Screen Resolution: 1280x1024
+
+Current Description: Intel Core i3 530 testing with a BIOSTAR TH55B HD v6.0 and Intel Core IGP on Fedora 25 via the Phoronix Test Suite.
+
+Redis 3.0.1:
+    pts/redis-1.0.0 [Test: LPOP]
+    Test 1 of 5
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      2 Minutes
+    Estimated Time To Completion: 7 Minutes (13:13 EDT)
+        Started Run 1 @ 13:07:27
+        Started Run 2 @ 13:07:39
+        Started Run 3 @ 13:07:51  [Std. Dev: 4.24%]
+        Started Run 4 @ 13:08:04  [Std. Dev: 7.50%]
+        Started Run 5 @ 13:08:15  [Std. Dev: 12.67%]
+        Started Run 6 @ 13:08:27  [Std. Dev: 13.95%]
+
+    Test Results:
+        1001001
+        1030927.81
+        947867.38
+        1131221.75
+        1295336.75
+        1319261.12
+
+    Average: 1120935.97 Requests Per Second
+
+
+Redis 3.0.1:
+    pts/redis-1.0.0 [Test: SADD]
+    Test 2 of 5
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      2 Minutes
+    Estimated Time To Completion: 6 Minutes (13:13 EDT)
+        Started Run 1 @ 13:08:47
+        Started Run 2 @ 13:08:59
+        Started Run 3 @ 13:09:11  [Std. Dev: 1.30%]
+
+    Test Results:
+        1081081.12
+        1071811.38
+        1053740.75
+
+    Average: 1068877.75 Requests Per Second
+
+
+Redis 3.0.1:
+    pts/redis-1.0.0 [Test: LPUSH]
+    Test 3 of 5
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      2 Minutes
+    Estimated Time To Completion: 4 Minutes (13:13 EDT)
+        Started Run 1 @ 13:09:30
+        Started Run 2 @ 13:09:42
+        Started Run 3 @ 13:09:55  [Std. Dev: 0.22%]
+
+    Test Results:
+        964320.19
+        960614.81
+        960614.81
+
+    Average: 961849.94 Requests Per Second
+
+
+Redis 3.0.1:
+    pts/redis-1.0.0 [Test: GET]
+    Test 4 of 5
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      2 Minutes
+    Estimated Time To Completion: 3 Minutes (13:12 EDT)
+        Started Run 1 @ 13:10:14
+        Started Run 2 @ 13:10:27
+        Started Run 3 @ 13:10:39  [Std. Dev: 3.15%]
+
+    Test Results:
+        1177856.38
+        1228501.25
+        1253132.88
+
+    Average: 1219830.17 Requests Per Second
+
+
+Redis 3.0.1:
+    pts/redis-1.0.0 [Test: SET]
+    Test 5 of 5
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 2 Minutes (13:12 EDT)
+        Started Run 1 @ 13:10:59
+        Started Run 2 @ 13:11:11
+        Started Run 3 @ 13:11:24  [Std. Dev: 0.44%]
+
+    Test Results:
+        1017294
+        1010101
+        1009081.75
+
+
