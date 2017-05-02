@@ -50,11 +50,6 @@ run_unixbench: service_off
 	mkdir -p results
 	cd build/byte-unixbench/UnixBench && ./Run > ../../../results/unixbench.txt
 
-run_pgbench: service_off
-	@echo "Runninb pgbench"
-	mkdir -p results
-	./pgbench.sh > ./results/pgbench.txt
-
 run_postmark: service_off
 	@echo "set size 4096 102400"
 	@echo "set subdirectories 10"
@@ -73,6 +68,27 @@ run_unpack: service_off
 
 run_apache: service_off
 	phoronix-test-suite benchmark pts/apache-1.6.1
+
+run_nginx: service_off
+	phoronix-test-suite benchmark pts/nginx-1.1.0
+
+run_mcperf: service_off
+	phoronix-test-suite benchmark pts/mcperf-1.0.0
+
+run_phpbench: service_off
+	phoronix-test-suite benchmark pts/phpbench-1.1.1
+
+run_pybench: service_off
+	phoronix-test-suite benchmark pts/pybench-1.0.0
+
+run_redis: service_off
+	phoronix-test-suite benchmark pts/redis-1.0.0
+
+run_pgbench: service_off
+	phoronix-test-suite benchmark pts/pgbench-1.5.2
+
+run_network: service_off
+	phoronix-test-suite benchmark pts/network-loopback-1.0.1
 
 run: run_lmbench run_unixbench run_pgbench run_postmark run_kernel run_R run_unpack run_apache
 
