@@ -1,0 +1,26 @@
+System Information
+
+Hardware:
+Processor: Intel Core i3 530 @ 2.93GHz (4 Cores), Motherboard: BIOSTAR TH55B HD v6.0, Chipset: Intel Core DRAM, Memory: 8192MB, Disk: 500GB Seagate ST3500418AS + 160GB Seagate ST3160815AS, Graphics: Intel Core IGP, Audio: Realtek ALC662 rev1, Monitor: IBM T860, Network: Realtek RTL8111/8168/8411
+
+Software:
+OS: Fedora 25, Kernel: 4.9.5 (x86_64), Desktop: GNOME Shell 3.22.1, Display Server: Wayland, OpenGL: 2.1 Mesa 13.0.4, Compiler: GCC 6.3.1 20161221 + Clang 3.9.1, File-System: ext4, Screen Resolution: 1280x1024
+
+Current Description: Intel Core i3 530 testing with a BIOSTAR TH55B HD v6.0 and Intel Core IGP on Fedora 25 via the Phoronix Test Suite.
+
+PHPBench 0.8.1:
+    pts/phpbench-1.1.1
+    Test 1 of 1
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 3 Minutes (10:48 EDT)
+        Started Run 1 @ 10:46:29
+        Started Run 2 @ 10:47:10
+        Started Run 3 @ 10:47:54  [Std. Dev: 2.07%]
+
+    Test Results:
+        246361
+        236515
+        242942
+
+    Average: 241939 Score
+

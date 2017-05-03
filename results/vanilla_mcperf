@@ -1,0 +1,156 @@
+System Information
+
+Hardware:
+Processor: Intel Core i3 530 @ 2.93GHz (4 Cores), Motherboard: BIOSTAR TH55B HD v6.0, Chipset: Intel Core DRAM, Memory: 8192MB, Disk: 500GB Seagate ST3500418AS + 160GB Seagate ST3160815AS, Graphics: Intel Core IGP, Audio: Realtek ALC662 rev1, Monitor: IBM T860, Network: Realtek RTL8111/8168/8411
+
+Software:
+OS: Fedora 25, Kernel: 4.9.5 (x86_64), Desktop: GNOME Shell 3.22.1, Display Server: Wayland, OpenGL: 2.1 Mesa 13.0.4, Compiler: GCC 6.3.1 20161221 + Clang 3.9.1, File-System: ext4, Screen Resolution: 1280x1024
+
+Current Description: Intel Core i3 530 testing with a BIOSTAR TH55B HD v6.0 and Intel Core IGP on Fedora 25 via the Phoronix Test Suite.
+
+Memcached 1.3.34 mcperf 0.1.1:
+    pts/mcperf-1.0.0 [Method: Add]
+    Test 1 of 7
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      3 Minutes
+    Estimated Time To Completion: 21 Minutes (10:40 EDT)
+        Running Pre-Test Script @ 10:20:35
+        Started Run 1 @ 10:20:38
+        Started Run 2 @ 10:21:39
+        Started Run 3 @ 10:22:39  [Std. Dev: 2.57%]
+        Running Post-Test Script @ 10:23:37
+
+    Test Results:
+        16729.9
+        16755.1
+        17498
+
+    Average: 16994.33 Operations Per Second
+
+
+Memcached 1.3.34 mcperf 0.1.1:
+    pts/mcperf-1.0.0 [Method: Get]
+    Test 2 of 7
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      3 Minutes
+    Estimated Time To Completion: 18 Minutes (10:41 EDT)
+        Running Pre-Test Script @ 10:23:48
+        Started Run 1 @ 10:23:51
+        Started Run 2 @ 10:24:19
+        Started Run 3 @ 10:24:47  [Std. Dev: 1.21%]
+        Running Post-Test Script @ 10:25:15
+
+    Test Results:
+        37142.2
+        36945.1
+        36290
+
+    Average: 36792.43 Operations Per Second
+
+
+Memcached 1.3.34 mcperf 0.1.1:
+    pts/mcperf-1.0.0 [Method: Set]
+    Test 3 of 7
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      3 Minutes
+    Estimated Time To Completion: 15 Minutes (10:39 EDT)
+        Running Pre-Test Script @ 10:25:25
+        Started Run 1 @ 10:25:28
+        Started Run 2 @ 10:26:29
+        Started Run 3 @ 10:27:30  [Std. Dev: 4.09%]
+        Started Run 4 @ 10:28:27  [Std. Dev: 3.63%]
+        Started Run 5 @ 10:29:24  [Std. Dev: 3.18%]
+        Running Post-Test Script @ 10:30:23
+
+    Test Results:
+        16786.9
+        16683.6
+        17945.6
+        17647.4
+        17476.7
+
+    Average: 17308.04 Operations Per Second
+
+
+Memcached 1.3.34 mcperf 0.1.1:
+    pts/mcperf-1.0.0 [Method: Append]
+    Test 4 of 7
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      3 Minutes
+    Estimated Time To Completion: 12 Minutes (10:42 EDT)
+        Running Pre-Test Script @ 10:30:33
+        Started Run 1 @ 10:30:36
+        Started Run 2 @ 10:31:33
+        Started Run 3 @ 10:32:26  [Std. Dev: 4.67%]
+        Started Run 4 @ 10:33:18  [Std. Dev: 3.85%]
+        Started Run 5 @ 10:34:13  [Std. Dev: 3.35%]
+        Running Post-Test Script @ 10:35:07
+
+    Test Results:
+        17834.3
+        19177.5
+        19487
+        18654.5
+        18680.5
+
+    Average: 18766.76 Operations Per Second
+
+
+Memcached 1.3.34 mcperf 0.1.1:
+    pts/mcperf-1.0.0 [Method: Delete]
+    Test 5 of 7
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      3 Minutes
+    Estimated Time To Completion: 9 Minutes (10:44 EDT)
+        Running Pre-Test Script @ 10:35:18
+        Started Run 1 @ 10:35:21
+        Started Run 2 @ 10:35:48
+        Started Run 3 @ 10:36:16  [Std. Dev: 0.77%]
+        Running Post-Test Script @ 10:36:44
+
+    Test Results:
+        37825.2
+        37379.2
+        37284.8
+
+    Average: 37496.40 Operations Per Second
+
+
+Memcached 1.3.34 mcperf 0.1.1:
+    pts/mcperf-1.0.0 [Method: Prepend]
+    Test 6 of 7
+    Estimated Trial Run Count:    3
+    Estimated Test Run-Time:      3 Minutes
+    Estimated Time To Completion: 6 Minutes (10:42 EDT)
+        Running Pre-Test Script @ 10:36:54
+        Started Run 1 @ 10:36:57
+        Started Run 2 @ 10:37:50
+        Started Run 3 @ 10:38:45  [Std. Dev: 1.62%]
+        Running Post-Test Script @ 10:39:38
+
+    Test Results:
+        19155.6
+        18630.9
+        19170
+
+    Average: 18985.50 Operations Per Second
+
+
+Memcached 1.3.34 mcperf 0.1.1:
+    pts/mcperf-1.0.0 [Method: Replace]
+    Test 7 of 7
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 3 Minutes (10:42 EDT)
+        Running Pre-Test Script @ 10:39:48
+        Started Run 1 @ 10:39:51
+        Started Run 2 @ 10:40:46
+        Started Run 3 @ 10:41:39  [Std. Dev: 1.89%]
+        Running Post-Test Script @ 10:42:34
+
+    Test Results:
+        18555.6
+        19214.2
+        18651.7
+
+    Average: 18807.17 Operations Per Second
+
