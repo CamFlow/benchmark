@@ -12,94 +12,91 @@ Redis 3.0.1:
     pts/redis-1.0.0 [Test: LPOP]
     Test 1 of 5
     Estimated Trial Run Count:    3
-    Estimated Test Run-Time:      2 Minutes
-    Estimated Time To Completion: 10 Minutes (12:25 EDT)
-        Started Run 1 @ 12:15:27
-        Started Run 2 @ 12:15:39
-        Started Run 3 @ 12:15:50  [Std. Dev: 1.81%]
+    Estimated Test Run-Time:      1 Minute
+    Estimated Time To Completion: 5 Minutes (12:04 EDT)
+        Started Run 1 @ 12:00:47
+        Started Run 2 @ 12:00:59
+        Started Run 3 @ 12:01:12  [Std. Dev: 1.24%]
 
     Test Results:
-        1457726
-        1412429.38
-        1457726
+        1062699.25
+        1044932.06
+        1070663.75
 
-    Average: 1442627.13 Requests Per Second
+    Average: 1059431.69 Requests Per Second
 
 
 Redis 3.0.1:
     pts/redis-1.0.0 [Test: SADD]
     Test 2 of 5
     Estimated Trial Run Count:    3
-    Estimated Test Run-Time:      2 Minutes
-    Estimated Time To Completion: 8 Minutes (12:23 EDT)
-        Started Run 1 @ 12:16:09
-        Started Run 2 @ 12:16:21
-        Started Run 3 @ 12:16:33  [Std. Dev: 1.78%]
+    Estimated Test Run-Time:      1 Minute
+    Estimated Time To Completion: 4 Minutes (12:04 EDT)
+        Started Run 1 @ 12:01:31
+        Started Run 2 @ 12:01:43
+        Started Run 3 @ 12:01:55  [Std. Dev: 1.04%]
 
     Test Results:
-        1124859.38
-        1142857.12
-        1165501.25
+        1152073.75
+        1161440.12
+        1137656.38
 
-    Average: 1144405.92 Requests Per Second
+    Average: 1150390.08 Requests Per Second
 
 
 Redis 3.0.1:
     pts/redis-1.0.0 [Test: LPUSH]
     Test 3 of 5
     Estimated Trial Run Count:    3
-    Estimated Test Run-Time:      2 Minutes
-    Estimated Time To Completion: 6 Minutes (12:22 EDT)
-        Started Run 1 @ 12:16:52
-        Started Run 2 @ 12:17:04
-        Started Run 3 @ 12:17:17  [Std. Dev: 3.30%]
+    Estimated Test Run-Time:      1 Minute
+    Estimated Time To Completion: 3 Minutes (12:04 EDT)
+        Started Run 1 @ 12:02:14
+        Started Run 2 @ 12:02:26
+        Started Run 3 @ 12:02:38  [Std. Dev: 2.03%]
 
     Test Results:
-        1011122.31
-        1022494.88
-        960614.81
+        1039501
+        1005025.12
+        1042752.88
 
-    Average: 998077.33 Requests Per Second
+    Average: 1029093.00 Requests Per Second
 
 
 Redis 3.0.1:
     pts/redis-1.0.0 [Test: GET]
     Test 4 of 5
     Estimated Trial Run Count:    3
-    Estimated Test Run-Time:      2 Minutes
-    Estimated Time To Completion: 4 Minutes (12:21 EDT)
-        Started Run 1 @ 12:17:36
-        Started Run 2 @ 12:17:49
-        Started Run 3 @ 12:18:01  [Std. Dev: 0.29%]
+    Estimated Test Run-Time:      1 Minute
+    Estimated Time To Completion: 2 Minutes (12:04 EDT)
+        Started Run 1 @ 12:02:58
+        Started Run 2 @ 12:03:10
+        Started Run 3 @ 12:03:22  [Std. Dev: 3.79%]
+        Started Run 4 @ 12:03:35  [Std. Dev: 3.46%]
 
     Test Results:
-        1385041.5
-        1383125.88
-        1390820.62
+        1340482.62
+        1321003.88
+        1246882.88
+        1264222.5
 
-    Average: 1386329.33 Requests Per Second
+    Average: 1293147.97 Requests Per Second
 
 
 Redis 3.0.1:
     pts/redis-1.0.0 [Test: SET]
     Test 5 of 5
     Estimated Trial Run Count:    3
-    Estimated Time To Completion: 2 Minutes (12:20 EDT)
-        Started Run 1 @ 12:18:20
-        Started Run 2 @ 12:18:33
-        Started Run 3 @ 12:18:45  [Std. Dev: 4.06%]
-        Started Run 4 @ 12:18:58  [Std. Dev: 3.71%]
-        Started Run 5 @ 12:19:10  [Std. Dev: 4.86%]
-        Started Run 6 @ 12:19:23  [Std. Dev: 4.36%]
+    Estimated Time To Completion: 1 Minute (12:04 EDT)
+        Started Run 1 @ 12:03:54
+        Started Run 2 @ 12:04:07
+        Started Run 3 @ 12:04:19  [Std. Dev: 1.26%]
 
     Test Results:
-        1085776.38
-        1083423.62
-        1010101
-        1096491.25
-        984251.94
-        1063829.75
+        1052631.62
+        1039501
+        1066098
 
-    Average: 1053978.99 Requests Per Second
+    Average: 1052743.54 Requests Per Second
+
 
 
