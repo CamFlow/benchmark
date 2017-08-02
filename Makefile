@@ -24,7 +24,7 @@ prepare_postmark:
 prepare:prepare_lmbench prepare_unixbench prepare_pgbench prepare_postmark
 
 service_off:
-	-sudo systemctl stop camflow-provenance.service
+	-sudo systemctl stop camflowd.service
 
 whole:
 	sudo camflow -e true
