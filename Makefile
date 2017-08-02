@@ -38,56 +38,56 @@ off:
 	sudo camflow -e false
 	sudo camflow -a false
 
-run_lmbench: service_off
+run_lmbench:
 	@echo "Running lmbench..."
 	mkdir -p results
 	cd build/lmbench && make results
 	cd build/lmbench && make rerun
 	cd build/lmbench/results/ && make > ../../../results/lmbench.txt
 
-run_unixbench: service_off
+run_unixbench:
 	@echo "Running unixbench..."
 	mkdir -p results
 	cd build/byte-unixbench/UnixBench && ./Run > ../../../results/unixbench.txt
 
-run_postmark: service_off
+run_postmark:
 	@echo "set size 4096 102400"
 	@echo "set subdirectories 10"
 	@echo "set number 4500"
 	@echo "set transactions 1500000"
 	cd build/postmark && ./postmark
 
-run_kernel: service_off
+run_kernel:
 	 phoronix-test-suite benchmark pts/build-linux-kernel-1.7.0
 
-run_R: service_off
+run_R:
 	phoronix-test-suite benchmark pts/rbenchmark-1.0.2
 
-run_unpack: service_off
+run_unpack:
 	phoronix-test-suite benchmark pts/unpack-linux-1.0.0
 
-run_apache: service_off
+run_apache:
 	phoronix-test-suite benchmark pts/apache-1.6.1
 
-run_nginx: service_off
+run_nginx:
 	phoronix-test-suite benchmark pts/nginx-1.1.0
 
-run_mcperf: service_off
+run_mcperf:
 	phoronix-test-suite benchmark pts/mcperf-1.0.0
 
-run_phpbench: service_off
+run_phpbench:
 	phoronix-test-suite benchmark pts/phpbench-1.1.1
 
-run_pybench: service_off
+run_pybench:
 	phoronix-test-suite benchmark pts/pybench-1.0.0
 
-run_redis: service_off
+run_redis:
 	phoronix-test-suite benchmark pts/redis-1.0.0
 
-run_pgbench: service_off
+run_pgbench:
 	phoronix-test-suite benchmark pts/pgbench-1.5.2
 
-run_network: service_off
+run_network:
 	phoronix-test-suite benchmark pts/network-loopback-1.0.1
 
 run: run_lmbench run_unixbench run_pgbench run_postmark run_kernel run_R run_unpack run_apache
